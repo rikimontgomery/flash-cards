@@ -224,7 +224,12 @@
   -webkit-transform: rotateX(180deg);
 }
 
-.front p, .back p {
+.front, .name {
+margin-top: 40%;
+font-size: 2em;
+}
+
+.back, .definition {
   margin-top: 25%;
-  font-size: 2em;
+  font-size: 1em;
 }
