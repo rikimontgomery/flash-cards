@@ -1,0 +1,60 @@
+.jumbotron {
+  background-color: white;
+  text-align: center;
+}
+
+.title {
+  font-family: garamond;
+}
+
+.stage {
+  -webkit-perspective: 1000;
+}
+
+.flashcard1 {
+  height: 300px;
+  width: 500px;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.flashcard2 {
+  height: 300px;
+  width: 500px;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.flashcard3 {
+  height: 300px;
+  width: 500px;
+  border: 2px solid gray;
+  box-shadow: 2px 2px 2px #000;
+  -webkit-transform-style: preserve-3d;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+}
+
+.front, .back {
+  height: 300px;
+  width: 500px;
+  position: absolute;
+  text-align: center;
+  -webkit-backface-visibility: hidden;
+}
+
+.back, .flipped {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+}
+
+.front p, .back p {
+  margin-top: 25%;
+  font-size: 3em;
+}
