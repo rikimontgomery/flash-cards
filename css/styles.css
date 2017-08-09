@@ -12,8 +12,8 @@
 }
 
 .flashcard1 {
-  height: 300px;
-  width: 500px;
+  height: 380px;
+  width: 375px;
   border: 2px solid gray;
   box-shadow: 2px 2px 2px #000;
   -webkit-transform-style: preserve-3d;
@@ -22,8 +22,8 @@
 }
 
 .flashcard2 {
-  height: 300px;
-  width: 500px;
+  height: 380px;
+  width: 375px;
   border: 2px solid gray;
   box-shadow: 2px 2px 2px #000;
   -webkit-transform-style: preserve-3d;
@@ -32,8 +32,8 @@
 }
 
 .flashcard3 {
-  height: 300px;
-  width: 500px;
+  height: 380px;
+  width: 375px;
   border: 2px solid gray;
   box-shadow: 2px 2px 2px #000;
   -webkit-transform-style: preserve-3d;
@@ -42,8 +42,8 @@
 }
 
 .front, .back {
-  height: 300px;
-  width: 500px;
+  height: 380px;
+  width: 375px;
   position: absolute;
   text-align: center;
   -webkit-backface-visibility: hidden;
@@ -56,5 +56,5 @@
 
 .front p, .back p {
   margin-top: 25%;
-  font-size: 3em;
+  font-size: 2em;
 }
